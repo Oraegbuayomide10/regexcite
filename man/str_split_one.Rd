@@ -7,8 +7,11 @@
 str_split_one(string, pattern, n = Inf)
 }
 \arguments{
-\item{string}{A character vector with, at most, one element.
-#' @inheritParams stringr::str_split}
+\item{string}{A character vector with, at most, one element.}
+
+\item{pattern}{The pattern to split by, can be a regular expression.}
+
+\item{n}{Maximum number of pieces to return. Default is Inf.}
 }
 \value{
 A character vector.

@@ -4,7 +4,9 @@
 #' Split a string
 #'
 #' @param string A character vector with, at most, one element.
-#' #' @inheritParams stringr::str_split
+#' @param pattern The pattern to split by, can be a regular expression.
+#' @param n Maximum number of pieces to return. Default is Inf.
+#' @inheritParams stringr::str_split
 
 #' @return A character vector.
 #' @export
